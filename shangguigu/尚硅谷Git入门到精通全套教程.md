@@ -2,7 +2,7 @@
 
 # 大纲
 
-![image-20220409181300990](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409181300990.png)
+![image-20220409181300990](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409181300990.png)
 
 
 
@@ -22,7 +22,7 @@
 
 # Git常用命令
 
-![image-20220409200703608](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409200703608.png)
+![image-20220409200703608](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409200703608.png)
 
 - git log和git reflog相似，信息更全
 - 签名的作用是区分不同操作者身份，用户的签名信息在每一个版本的提交信息中能够看到。以此确认本次提交是谁做的，git首次安装必须设置用户签名。
@@ -36,9 +36,9 @@
 
 # Git分支
 
-![image-20220409214801246](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409214801246.png)
+![image-20220409214801246](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409214801246.png)
 
-![image-20220409215127046](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409215127046.png)
+![image-20220409215127046](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409215127046.png)
 
 合并分支发生冲突后，使用手动合并，合并完成后先使用git add命令，再使用git commit命令，此时git commit命令不能带文件名
 
@@ -50,13 +50,13 @@
 
 - **团队内协作**
 
-![image-20220409221054737](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409221054737.png)
+![image-20220409221054737](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409221054737.png)
 
 团队人员A、B、C先各自建立自己的本地库，其中A可以先push到远程库，再B和C从远程库clone到自己的本地库，其B和C在修改代码后再push到远程库，此时A可以从远程库pull代码
 
 - **跨团队协助**
 
-![image-20220409221655921](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409221655921.png)
+![image-20220409221655921](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409221655921.png)
 
 团队B（东方不败）先从团队A（岳不群）fork代码到自己的远程库再clone到自己的本地库，再修改后push到自己的本地库，再向A发送Pull request请求，经A审核后再决定是否合并
 
@@ -79,7 +79,7 @@ git remote add 别名 远程地址 //为远程库起别名
 git push 别名 分支 //本地分支推送到远程库（别名）尚
 ```
 
-![image-20220410011005526](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220410011005526.png)
+![image-20220410011005526](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220410011005526.png)
 
 推送过程出现这个问题，原因是github不再支持使用密码push的方式，解决方案：一、使用SSH  二、使用Personal access token
 
