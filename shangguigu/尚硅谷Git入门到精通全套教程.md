@@ -149,3 +149,37 @@ clone会拉取代码，初始化本地仓库，创建别名
 
 
 # GitLab
+
+
+
+
+
+
+
+# 一些问题
+
+##  OpenSSL SSL_read: Connection was reset, errno 10054
+
+与SSL验证有关，执行解除SSL验证命令
+
+```
+git config --global http.sslVerify "false"
+```
+
+
+
+
+
+
+
+# 使用Typora+Github做笔记
+
+https://blog.csdn.net/weixin_46025371/article/details/111105266
+
+https://blog.csdn.net/weixin_51458899/article/details/123096167
+
+附上全教程的链接
+
+特别提示：配置PicGo时仓库格式为用户名/仓库名
+
+![image-20220410152525862](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220410152525862.png)
