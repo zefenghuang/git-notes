@@ -10,7 +10,7 @@
 
 # Git概述
 
-![image-20220409191549894](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220409191549894.png)
+![image-20220409191549894](https://raw.githubusercontent.com/zefenghuang/noteimage/master/image-20220409191549894.png)
 
 - 工作区：代码存放的磁盘的目录的位置
 - 暂存区：将工作区写的代码添加的暂存区，临时存储
